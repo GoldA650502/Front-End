@@ -1,9 +1,27 @@
 .center{
     margin: 0 auto;
     text-align: center;
-    border: 1px solid rgb(168, 17, 17);
+    /*border: 1px solid rgb(168, 17, 17);
+*/
 }
 
 .htmls{
     color: blue;
+}
+
+.first-p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 9px;
+    font-style: italic;
+    color: red;
+}
+
+.text1{
+    color: darkgreen;
+    font-weight: bolder;
+}
+
+.text2{
+    color:cornflowerblue;
+    font-style: normal;
 }
