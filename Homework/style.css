@@ -1,0 +1,9 @@
+.center{
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid rgb(168, 17, 17);
+}
+
+.htmls{
+    color: blue;
+}
