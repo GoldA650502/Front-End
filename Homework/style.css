@@ -9,13 +9,6 @@
     color: blue;
 }
 
-.first-p{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 9px;
-    font-style: italic;
-    color: red;
-}
-
 .text1{
     color: darkgreen;
     font-weight: bolder;
@@ -25,3 +18,52 @@
     color:cornflowerblue;
     font-style: normal;
 }
+
+.text3{
+    color: indigo;
+    font-family: Cambria;
+    font-size: 20px;
+}
+
+.text4{
+    color: indigo;
+    font-family: Cambria;
+    font-display: unset;
+}
+
+.text5{
+    color: black;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text6{
+    color: indigo;
+    font-family: Cambria;
+    font: smaller;
+}
+
+.first-p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13px;
+    font-style: italic;
+    color: red;
+}
+
+.second-p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-style:inherit;
+    color: green;
+}
+
+.third-p{
+    font-family:fantasy;
+    font-size: 15px;
+    font-style:inherit;
+    color:yellow;
+}
+
+ li:before {
+    content: "ƥ "; /* Добавляем в качестве маркера символ */
+   }
