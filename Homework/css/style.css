@@ -63,7 +63,17 @@
     font-style:inherit;
     color:yellow;
 }
+ul#third>li{
+    list-style: none;
+}
+ul#third>li:before{
+    content: "§"; /* Добавляем в качестве маркера символ */
+}
+ 
+ul#first>li{
+    list-style-type: disc;
+}
 
- li:before {
-    content: "ƥ "; /* Добавляем в качестве маркера символ */
-   }
+a{
+    text-decoration: none;
+}
