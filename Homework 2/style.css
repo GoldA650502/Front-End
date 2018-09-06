@@ -1,0 +1,44 @@
+*{
+    margin: 5px;
+    padding: 0;
+}
+
+table{
+    table-layout: fixed; /* Фиксированная ширина ячеек */
+    width: 100%; /* Ширина таблицы */
+    border: 1px solid red;
+}
+
+td{
+    height: 200px;
+    border: 1px solid black;
+}
+
+.class third{
+    width: 33%;
+}
+
+div{   
+    height: 200px;    
+    display: inline-block;
+}
+
+header div{
+    background: red;
+    width:49%;
+}
+.content div{
+    width: 32%;
+    padding: 2px;
+    background: black;
+  }
+ .content #forth{
+    width: 98%;
+  }
+  footer{
+  }
+
+  footer div{
+      width: 24%;
+      background: blue;
+  }
