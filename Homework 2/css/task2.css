@@ -1,0 +1,33 @@
+section{
+    width:500px;
+    height:500px;
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    overflow: auto;
+    border: 3px solid black;
+  }
+  
+  div{
+    width:250px;
+    height:250px;
+    display: inline-block;
+    position:absolute;
+  }
+  
+  .first{
+    background: red;
+    position: absolute;
+    bottom: 0;
+    right:0;
+  }
+  
+  .second{
+    background: blue;
+  }
+  .third{
+    background: yellow;
+    left:25%;
+    top:25%;
+    
+  }

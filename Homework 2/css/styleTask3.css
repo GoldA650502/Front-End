@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 90%;
+    height: 15%;
+    background: red;
+    display: block;
+    position: absolute;
+    left: 15%;
+    border-radius: 0 0 20% 20%; /*После скругления появилось белое пространство, не знаю насколько это правильно, если можно, то объяснить*/
+}
+
+.aside{
+    display: inline-block;
+    width: 15%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    bottom:0;
+    background: yellow;
+    opacity: 0.6;
+}
+
+.menu{
+    display: inline-block;
+    background: #22a028;
+    width: 160px;
+    height: 100px;
+    position: absolute;
+    left: 10%;
+    top: 5%;    
+    padding-left: 40px;
+    padding-top: 20px;
+    border-radius: 70%;
+}
+
+
+.content{
+    width: 90%;
+    height: 85%;
+    left: 15%;
+    top: 15%;
+    display: inline-block;
+    background: blue;
+    position: absolute;
+   
+}
+
+.content div{
+    padding: 40px;
+}
+
+footer{
+    width: 100%; /* Сделал 100% чтобы смотрелось более привлекательно.*/
+    height: 15%;
+    bottom: 0;
+    display: inline-block;
+    position: fixed;
+    background: url(https://pp.userapi.com/c844722/v844722477/e21a4/zui_xuXFG5U.jpg) #000 repeat;
+    border-radius: 20% 20% 0 0;
+}
+
+footer p{
+    padding-bottom: 20px;
+    padding-top: 30px;
+    width: 600px;
+    text-align: right;
+    font-size: 12px;  
+    font-family: 'Times New Roman', Times, serif; 
+    color: #999999;
+}
+
+.center{
+    width: 900px;
+    margin: 0 auto;
+}
+
+li {
+    list-style-type: none; /* Убираем маркеры у списка */
+   }
+   li:before {
+    content: "♥ "; /* Добавляем в качестве маркера символ */
+   }
