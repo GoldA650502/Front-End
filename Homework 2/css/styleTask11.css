@@ -2,14 +2,24 @@
 table{
     table-layout: fixed; /* Фиксированная ширина ячеек */
     width: 100%; /* Ширина таблицы */
-    border: 1px solid red;
+    border-spacing: 10px 11px;
 }
 
 td{
     height: 200px;
-    border: 1px solid black;
 }
 
-.class third{
-    width: 33%;
+.header{
+    background: red;
+}
+.content{
+    background: yellow;
+}
+
+.footer{
+    background: green;
+}
+
+.third{
+    background: rgb(80, 33, 192);
 }
