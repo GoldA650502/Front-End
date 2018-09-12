@@ -65,20 +65,24 @@ div{
       opacity: 1;
   }
  
-
+.content{
+    margin: 0 15%;
+    margin-bottom: 50px;
+}
   .content div{
     display: inline-block;
+   
   }
 
 .text1{
     background: rgb(35, 50, 184);
-    width: 49%;
+    width: 47.5%;
 }
 
 
 .text2{
     background: rgb(128, 19, 33);
-    width: 49%;
+    width: 47.5%;
 }
 
 body{
