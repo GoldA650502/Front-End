@@ -1,12 +1,7 @@
 @import "styleILaptop.css";
 
-@import "styleIPod.css";
+@media (max-width:768px){
 
-@media (max-width:376px){
-    .first{
-        width: 100%;
-        margin: 1% auto;
-    }
     .content div{
         width: 100%;
     }
@@ -14,14 +9,15 @@
         width: 100%;
         margin: 1% auto;
     }
-    .second,.forth,.third{
+    .third{
        display: none;
     }
+    .forth{
+        width: 49%;
+        margin: 1% auto;
+    }
     .fifth{
-        width: 100%;
+        width: 49%;
         margin: 1% auto;
     }
 }
-
-
-
