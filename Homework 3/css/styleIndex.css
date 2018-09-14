@@ -67,8 +67,29 @@ footer{
 .fifth{
     background: rgb(211, 22, 186);
 }
+@media (max-width:768px){
 
-@media (max-width:750px){
+    .content div{
+        width: 100%;
+    }
+    .content{
+        width: 100%;
+        margin: 1% auto;
+    }
+    .third{
+       display: none;
+    }
+    .forth{
+        width: 49%;
+        margin: 1% auto;
+    }
+    .fifth{
+        width: 49%;
+        margin: 1% auto;
+    }
+}
+
+@media (max-width:375px){
     .first{
         width: 100%;
         margin: 1% auto;
@@ -88,4 +109,6 @@ footer{
         margin: 1% auto;
     }
 }
+
+
 
