@@ -16,11 +16,12 @@ header{
     position: fixed;
 }
 .footer{
-    width:100%;
+    width:98%;
     height: 100%;
     position: absolute;
     background: rgb(34, 31, 209);
     opacity: 0.5;
+    padding: 1%;
 }
 footer{
     position:relative;
@@ -76,15 +77,18 @@ div{
 
 .text1{
     background: rgb(35, 50, 184);
-    width: 47.5%;
+    width: 45%;
 }
 
 
 .text2{
     background: rgb(128, 19, 33);
-    width: 47.5%;
+    width: 45%;
 }
 
+.text1, .text2{
+    padding: 1.5%;
+}
 body{
     position: relative;
 }
