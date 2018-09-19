@@ -9,13 +9,13 @@ header{
     background: red;
     display: block;
     position: absolute;
-    left: 15%;
+    left: 10%;
     border-radius: 0 0 20% 20%; /*После скругления появилось белое пространство, не знаю насколько это правильно, если можно, то объяснить*/
 }
 
 .aside{
     display: inline-block;
-    width: 15%;
+    width: 10%;
     height: 100%;
     position: fixed;
     left: 0;
@@ -26,23 +26,24 @@ header{
 .menu{
     display: inline-block;
     background: #22a028;
+    font-size: 14px;
     position: absolute;
-    width: 70%;
-    height: 10%;
-    left: 10%;
-    top: 5%;    
+    width: 80%;
+    height: 10%; 
     padding-left: 10%;
-    padding-top: 10%;
+    padding-top: 11%;
     border-radius: 70%;
+    margin-top: 10%;
+    margin-left: 5%;
 }
 
 body{
     background: rgba(12, 12, 199, 0.664);
 }
 .content{
-    width: 90%;
+    width: 70%;
     height: 85%;
-    left: 15%;
+    left: 10%;
     top: 15%;
     display: inline-block;
     position: absolute;
@@ -50,7 +51,8 @@ body{
 }
 
 .content div{
-    padding: 40px;
+    padding: 7%;
+    padding-bottom: 15%;
 }
 
 footer{
@@ -59,7 +61,7 @@ footer{
     bottom: 0;
     display: inline-block;
     position: fixed;
-    background: url(https://pp.userapi.com/c844722/v844722477/e21a4/zui_xuXFG5U.jpg) #000 repeat;
+    background:  rgba(12, 12, 199, 1);
     border-radius: 20% 20% 0 0;
 }
 
