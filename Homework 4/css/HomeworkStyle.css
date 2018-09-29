@@ -14,7 +14,7 @@
     margin-left:0px;
 }
 
-#box1 ,#box2,#box3,#box4,#box5{
+#box{
     flex-direction: column;
     background-color: #046868;
     height: 35px;
